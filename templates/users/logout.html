@@ -1,0 +1,20 @@
+{% extends "rebase.html" %}
+{% load static %}
+{% block header %}
+<link href="{% static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.theme.default.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/animate.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'styles/main_styles.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'styles/responsive.css' %}">
+{% endblock %}
+{% block content %}
+<h2>You signed out.</h2>
+<div class="content-section">
+    <body style="text-align:center">
+        <div class="border-top pt3">
+        <small class="text-muted">Want to sign in? <a class="ml-2" href="{% url 'login' %}">Sign In<a/>
+        </small>
+    </div>
+</div>
+{% endblock %}
