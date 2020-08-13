@@ -3,5 +3,5 @@ Project by SiimK
 
 Clone the repository.
 Create virtual environment.
-Run requirements file.
+Check requirements file.
 Run server.
